@@ -1,0 +1,8 @@
+mysite-service
+https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-22-04
+
+rabbit-mq
+https://computingforgeeks.com/how-to-install-latest-rabbitmq-server-on-ubuntu-linux/
+
+celery-service
+https://dev.to/iamtekson/django-with-celery-in-production-cb5

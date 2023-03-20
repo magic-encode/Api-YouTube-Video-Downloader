@@ -1,0 +1,13 @@
+[Unit]
+Description=Celery Service
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/root/apitube
+Environment="/root/apitube/venv/bin/"
+ExecStart=/root/apitube/env/bin/celery -A mysite worker -l info --pool=solo
+
+[Install]
+WantedBy=multi-user.target
